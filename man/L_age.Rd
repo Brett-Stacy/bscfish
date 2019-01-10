@@ -24,6 +24,11 @@ DESCRIPTION: Determine fish length from age imput.
 \details{
 DETAILS: This section provides furthur information about the function.
 }
+\section{Section_Test}{
+
+This section was written to test the commit and push features of git/github
+}
+
 \examples{
 ## Inputs from: https://www.niwa.co.nz/node/111765
 pat_tooth_L_inf = 169.07

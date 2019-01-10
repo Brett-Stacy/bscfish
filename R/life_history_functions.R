@@ -9,7 +9,7 @@
 #'
 #' DETAILS: This section provides furthur information about the function.
 #'
-#' @section This is a Section
+#' @section Section_Test:
 #' This section was written to test the commit and push features of git/github
 #'
 #' @param L_inf theoretical maximum average length
