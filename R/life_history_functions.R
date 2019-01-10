@@ -10,7 +10,8 @@
 #' DETAILS: This section provides furthur information about the function.
 #'
 #' @section Section_Test:
-#' This section was written to test the commit and push features of git/github
+#' This section was written to test the commit and push features of git/github.
+#' NOTE: The section title must be followed by a colon. This is similar to R-Markdown sections
 #'
 #' @param L_inf theoretical maximum average length
 #' @param k growth coefficient
