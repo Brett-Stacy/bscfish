@@ -1,7 +1,6 @@
 ## Functions described in Fisheries Lectures Online
 ## Name: bscfish
 
-
 #' TITLE: Von Bertalanffy Growth Curve.
 #'
 #' DESCRIPTION: Determine fish length from age imput.
