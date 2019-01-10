@@ -1,11 +1,17 @@
 ## Functions described in Fisheries Lectures Online
 ## Name: bscfish
 
+
+
 #' TITLE: Von Bertalanffy Growth Curve.
 #'
 #' DESCRIPTION: Determine fish length from age imput.
 #'
 #' DETAILS: This section provides furthur information about the function.
+#'
+#' @section This is a Section
+#' This section was written to test the commit and push features of git/github
+#'
 #' @param L_inf theoretical maximum average length
 #' @param k growth coefficient
 #' @param age age of fish. independent variable
