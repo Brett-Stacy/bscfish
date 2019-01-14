@@ -4,12 +4,14 @@
 \alias{W_age}
 \title{Weight as function of length at age}
 \usage{
-W_age(A, L_age)
+W_age(a, b, L_age)
 }
 \arguments{
-\item{A}{Species specific parameter.}
+\item{a}{Species specific parameter (scaling constant).}
 
-\item{L_age}{Lengths of fish}
+\item{b}{Species specific parameter (allometric growth, close to 3).}
+
+\item{L_age}{Lengths of fish.}
 }
 \value{
 Returns weight of fish at specified lengths(ages)
@@ -27,7 +29,9 @@ pat_tooth_L_inf = 169.07
 pat_tooth_k     = 0.093
 pat_tooth_t_0   = -0.256
 ages = seq(1, 30, 0.1)
-multiple_L = L_age(169.07, 0.093, ages, -0.256)
-multiple_W = W_age(1.387*10^-8, multiple_L)
+multiple_L = L_age(pat_tooth_L_inf, pat_tooth_k, ages, pat_tooth_t_0)
+pat_tooth_a = 1.378*10-8
+pat_tooth_b = 3
+multiple_W = W_age(pat_tooth_a, pat_tooth_b, multiple_L)
 plot(multiple_L, multiple_W)
 }
